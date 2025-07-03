@@ -33,6 +33,15 @@ android {
 
 dependencies {
 
+    implementation(libs.recyclerview)
+    implementation(libs.lifecycle.extensions)
+    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.material)
+    implementation(libs.swiperefreshlayout)
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.gson)
+    implementation(libs.coroutines.core)
+    implementation(libs.coroutines.android)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
